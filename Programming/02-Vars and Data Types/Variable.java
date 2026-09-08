@@ -1,15 +1,15 @@
 public class Variable {
+   public Variable() {
+   }
 
-    public static void main(String args[]) {
-        int x = 2;
-        System.out.println(x+2);
-        System.out.println(x/2);
-        System.out.println(x*3);
-        System.out.println(5+4+"Java"+3+9);
-
-        String name;
-        name = ("Shubhankar");
-
-        System.out.println(name);
-    }
+   public static void main(String[] var0) {
+      byte var1 = 2;
+      
+      System.out.println(var1 + 2);
+      System.out.println(var1 / 2);
+      System.out.println(var1 * 3);
+      System.out.println("9Java39");
+      String var2 = "Shubhankar";
+      System.out.println(var2);
+   }
 }
